@@ -11,7 +11,7 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#0068C4",
-    "navigationBarTitleText": "知乎",
+    "navigationBarTitleText": "鲤鱼",
     "navigationBarTextStyle":"white",
     "enablePullDownRefresh":true
   },

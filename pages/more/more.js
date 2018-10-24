@@ -12,6 +12,9 @@ Page({
       url: ''
     })
   },
+  bindItemTap:function(){
+    console.log('Start Query School!')
+  },
   onLoad: function () {
     console.log('onLoad')
     var that = this
