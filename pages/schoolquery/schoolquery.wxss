@@ -1,0 +1,49 @@
+.section{
+	margin-top:150rpx;
+	width:100%;
+	height:100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center;
+	vertical-align:middle;
+	align-items:center;
+}
+
+.page-section{
+  margin-bottom: 20rpx;
+}
+.flex-wrp-row {
+	flex-direction:row;
+
+	
+}
+
+.flex-wrp-col {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flex-item{
+	margin:20rpx;
+	color:#FFFFFF;
+	display:flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 30rpx;
+}
+
+.bc_green {
+	background: green;
+	width:300rpx; 
+	height: 200rpx;
+}
+.bc_red {
+	background: red;
+	width:300rpx; 
+	height: 200rpx;
+}
+.bc_blue {
+	background: blue;
+	width:300rpx; 
+	height: 200rpx;
+}

@@ -1,0 +1,30 @@
+<view class="section">
+  
+  <view class="flex-wrp-row">
+    <view class="flex-wrp-col">
+      <view class="flex-item bc_green">
+      <text>院校查询</text>
+      </view>
+      <view class="flex-item bc_blue">
+      <text>分数线查询</text>
+      </view>
+    </view>
+    <view class="flex-wrp-col">
+      <view class="flex-item bc_green">
+        <text>专业查询</text>
+      </view>
+      <view class="flex-item bc_blue">
+        <text>大学排名</text>
+      </view>
+    </view>
+    <view class="flex-wrp-col">
+      <view class="flex-item bc_green">
+      <text>职业查询</text>
+      </view>
+      <view class="flex-item bc_blue">
+        <text>对口职业查询</text>
+      </view>
+    </view>
+    
+  </view>
+</view>

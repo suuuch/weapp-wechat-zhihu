@@ -4,9 +4,34 @@
   padding: 30rpx 25rpx 30rpx 0;
   margin: 15rpx 0 0 0;
   border-top: 1px solid #eee;
-  border-bottom: 1px solid #dcdcdc;
   box-shadow: 0 2px 5px #eeeeee;
 }
+
+.user_connect{
+  font-size:30rpx;
+  width:100%;
+  background:#ffffff;
+  border-top:1px solid #eee;
+  border-bottom:1px solid #dcdcdc;
+  box-shadow:0 2px 5px #eeeeee;
+}
+.user_connect view{
+  text-align: center;
+  display: inline-flex;
+  justify-content:center;
+  vertical-align:middle;
+  text-align: center;
+  width:50%;
+  padding:30rpx 0rpx 30rpx 0;
+
+}
+
+.user_connect view:first-child
+{ 
+  background-color:yellow;
+  border-left:1px solid #eee;
+}
+
 .user .userinfo-avatar{
   flex: 1;
   display: inline-block;

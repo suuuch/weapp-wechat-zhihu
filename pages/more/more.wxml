@@ -8,15 +8,19 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
       <text class="edit">查看或编辑个人主页</text>
     </view>
+    
   </view>
-
+  <view class="user-info flex-item user_connect">
+        <view><text>关注： 333人</text></view>
+        <view><text>粉丝： 333人</text></view>
+    </view>
   <view class="my">
     <view class="my-item flex-wrp">
       <view class="myitem-icon flex-item" >
         <image src="../../images/eye.png"></image>
       </view>
       <view class="myitem-name flex-item">
-        <text>我的关注</text>
+        <text>个人资料</text>
       </view>
     </view>
     <view class="my-item flex-wrp">
@@ -31,8 +35,8 @@
       <view class="myitem-icon flex-item" >
         <image src="../../images/draft.png"></image>
       </view>
-      <view class="myitem-name flex-item">
-        <text>我的草稿</text>
+      <view class="myitem-name flex-item" bindtap="bindMywilling">
+        <text>我的志愿</text>
       </view>
     </view>
     <view class="my-item flex-wrp">
@@ -40,15 +44,7 @@
         <image src="../../images/recent.png"></image>
       </view>
       <view class="myitem-name flex-item">
-        <text>最近浏览</text>
-      </view>
-    </view>
-    <view class="my-item flex-wrp">
-      <view class="myitem-icon flex-item" >
-        <image src="../../images/book.png"></image>
-      </view>
-      <view class="myitem-name flex-item" bindtap="bindItemTap">
-        <text>学校查询</text>
+        <text>我的发布</text>
       </view>
     </view>
     <view class="my-item flex-wrp">
@@ -56,9 +52,18 @@
         <image src="../../images/live.png"></image>
       </view>
       <view class="myitem-name flex-item">
-        <text>志愿填报</text>
+        <text>我的购买记录</text>
       </view>
     </view>
+    <view class="my-item flex-wrp">
+      <view class="myitem-icon flex-item" >
+        <image src="../../images/book.png"></image>
+      </view>
+      <view class="myitem-name flex-item" bindtap="bindSchoolQuery">
+        <text>学校查询</text>
+      </view>
+    </view>
+    
     <view class="my-item flex-wrp">
       <view class="myitem-icon flex-item" >
         <image src="../../images/zhi.png"></image>

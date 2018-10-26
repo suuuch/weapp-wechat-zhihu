@@ -1,6 +1,6 @@
-//logs.js
 var util = require('../../utils/util.js')
 var app = getApp()
+
 Page({
   data: {
     motto: 'Hello World',
@@ -12,17 +12,7 @@ Page({
       url: ''
     })
   },
-  //事件处理函数
-  bindSchoolQuery: function() {
-    wx.navigateTo({
-      url: '../schoolquery/schoolquery'
-    })
-  },
-  bindMywilling: function(){
-    wx.navigateTo({
-      url:''
-    })
-  },
+
   onLoad: function () {
     console.log('onLoad')
     var that = this
