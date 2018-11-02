@@ -1,35 +1,42 @@
 .user {
-  width: 725rpx;
-  background: #ffffff;
+  width: 100%;
+  background: linear-gradient(#6f89fe,#897efe) ;
   padding: 30rpx 25rpx 30rpx 0;
-  margin: 15rpx 0 0 0;
-  border-top: 1px solid #eee;
-  box-shadow: 0 2px 5px #eeeeee;
+  /*margin: 15rpx 0 0 0;*/
+  /*border-top: 1px solid #eee;*/
+  /*box-shadow: 0 2px 5px #eeeeee;*/
 }
 
 .user_connect{
   font-size:30rpx;
   width:100%;
-  background:#ffffff;
-  border-top:1px solid #eee;
-  border-bottom:1px solid #dcdcdc;
-  box-shadow:0 2px 5px #eeeeee;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  vertical-align:middle;
 }
 .user_connect view{
   text-align: center;
-  display: inline-flex;
-  justify-content:center;
-  vertical-align:middle;
-  text-align: center;
-  width:50%;
+  flex: 1;
   padding:30rpx 0rpx 30rpx 0;
 
 }
 
+.user_connect view{
+  background:linear-gradient(#a198fe, #a795fe);
+}
 .user_connect view:first-child
 { 
-  background-color:yellow;
-  border-left:1px solid #eee;
+  
+  border-top:0.5rpx solid #897efe;
+  border-right:0.5rpx solid #897efe;
+}
+.user_connect view:last-child
+{ 
+  
+  border-top:0.5rpx solid #897efe;
+  border-left:0.5rpx solid #897efe;
 }
 
 .user .userinfo-avatar{
@@ -49,7 +56,7 @@
 .user .user-info .userinfo-nickname{
   padding: 8rpx 0 10rpx 0;
   font-size: 30rpx;
-  color: #818A8F;
+  color: #FFFFFF;
 }
 .user .user-info .edit{
   font-size: 30rpx;
@@ -58,7 +65,7 @@
 }
 
 .my{
-  margin: 15rpx 0 0 0;
+  
   border-top: solid 1px #ebebeb;
   border-bottom: solid 2px #ebebeb;
 }
